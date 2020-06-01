@@ -4,6 +4,8 @@
 
 https://<span></span>dgt-back.herokuapp.com/api/user/register/
 
+(Todos os campos devem possuir ao menos 6 caracteres para serem validados)
+
 post
 
 {
