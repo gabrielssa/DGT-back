@@ -46,8 +46,10 @@ http://<span></span>dgt-back.herokuapp.com/api/tasks/create
 post
 
 {
+
 	"name":"Programar",
 	"priority":"alta"
+	
 }
 
 ## List all my tasks
@@ -63,8 +65,10 @@ http://<span></span>dgt-back.herokuapp.com/api/tasks/
 put
 
 {
+
 	"_id":"5ed566fb0b745b171029ad8f",
 	"name":"Programar Muitão"
+	
 }
 
 ## Delete a task
@@ -73,5 +77,7 @@ http://<span></span>dgt-back.herokuapp.com/api/tasks/
 
 delete
 {
+
 	"_id":"5ed566fb0b745b171029ad8f"
+	
 }
