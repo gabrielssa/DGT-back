@@ -24,5 +24,5 @@ app.use(express.json());
 app.use('/api/user', authRoute);
 app.use('/api/tasks', taskRoute);
 
-
-app.listen(5555, () => console.log("Server up and running"));
+const PORT = process.env.PORT || 5555;
+app.listen(PORT, () => console.log("Server up and running"));
