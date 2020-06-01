@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon index.js"
   },
-  "author": "",
+  "author": "Gabriel Schubert",
   "license": "ISC",
   "dependencies": {
     "@hapi/joi": "^17.1.1",
