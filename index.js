@@ -25,4 +25,4 @@ app.use('/api/user', authRoute);
 app.use('/api/tasks', taskRoute);
 
 
-app.listen(3000, () => console.log("Server up and running"));
+app.listen(5555, () => console.log("Server up and running"));
