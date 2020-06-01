@@ -1,6 +1,6 @@
-#User
+# User
 
-##Register
+## Register
 
 https://dgt-back.herokuapp.com/api/user/register/
 post
