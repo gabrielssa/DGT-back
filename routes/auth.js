@@ -61,7 +61,9 @@ router.post('/logout', verify, async (req, res) => {
 
     try{
         const savedInvalidToken = await invalidToken.save();
-        res.send('Logout Successful');
+        res.send({
+            "loggedOut":true
+        });
     }catch(err){
         res.status(400).send(err);
     }
