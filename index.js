@@ -21,7 +21,7 @@ mongoose.connect(
 app.use(express.json());
 
 //Routes Middlewares
-app.use('/api/user', authRoute);
+app.use('/api/user', authRoute); 
 app.use('/api/tasks', taskRoute);
 
 const PORT = process.env.PORT || 5555;
