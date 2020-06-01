@@ -52,7 +52,9 @@ router.post('/login', async (req, res) => {
 });
 
 router.post('/logout', verify, async (req, res) => {
-    const token = req.header('auth-token');
+    const authHeader = req.headers.authorization;
+    const [, token] = authHeader.split(' ');
+    
     const invalidToken = new InvalidToken( {
         'token':token
     });

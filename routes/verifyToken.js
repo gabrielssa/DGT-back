@@ -2,8 +2,11 @@ const jwt = require('jsonwebtoken');
 const InvalidToken = require('../model/InvalidToken');
 
 module.exports = async function (req, res, next){
-    const token = req.headers.authorization;
-    if(!token) return res.status(401).send('Acess Danied');
+    const authHeader = req.headers.authorization;
+
+    if(!authHeader) return res.status(401).send('Acess Danied');
+
+    const [, token] = authHeader.split(' ');
 
     //verifying if the token is valid
     const result = await InvalidToken.findOne({'token': token});
