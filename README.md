@@ -2,7 +2,7 @@
 
 ## Register
 
-https://dgt-back.herokuapp.com/api/user/register/
+https://<span></span>dgt-back.herokuapp.com/api/user/register/
 
 post
 
@@ -18,7 +18,7 @@ post
 
 ## Login
 
-https://dgt-back.herokuapp.com/api/user/login
+https://<span></span>dgt-back.herokuapp.com/api/user/login
 
 post
 
@@ -33,7 +33,7 @@ post
 Obs: O login retorna um Bearer Token que deve ser passado na authorization
 
 ## LogOut
-http://localhost:5555/api/user/logout
+http://<span></span>localhost:5555/api/user/logout
 
 post
 
@@ -41,7 +41,7 @@ post
 
 ## Create
 
-http://localhost:5555/api/tasks/create
+http://<span></span>localhost:5555/api/tasks/create
 
 post
 
@@ -52,13 +52,13 @@ post
 
 ## List all my tasks
 
-http://localhost:5555/api/tasks/
+http://<span></span>localhost:5555/api/tasks/
 
 get
 
 ## Rename a task
 
-http://localhost:5555/api/tasks/
+http://<span></span>localhost:5555/api/tasks/
 
 put
 
@@ -69,7 +69,7 @@ put
 
 ## Delete a task
 
-http://localhost:5555/api/tasks/
+http://<span></span>localhost:5555/api/tasks/
 
 delete
 {
