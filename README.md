@@ -33,7 +33,7 @@ post
 Obs: O login retorna um Bearer Token que deve ser passado na authorization
 
 ## LogOut
-http://<span></span>localhost:5555/api/user/logout
+http://<span></span>dgt-back.herokuapp.com/api/user/logout
 
 post
 
@@ -41,7 +41,7 @@ post
 
 ## Create
 
-http://<span></span>localhost:5555/api/tasks/create
+http://<span></span>dgt-back.herokuapp.com/api/tasks/create
 
 post
 
@@ -52,13 +52,13 @@ post
 
 ## List all my tasks
 
-http://<span></span>localhost:5555/api/tasks/
+http://<span></span>dgt-back.herokuapp.com/api/tasks/
 
 get
 
 ## Rename a task
 
-http://<span></span>localhost:5555/api/tasks/
+http://<span></span>dgt-back.herokuapp.com/api/tasks/
 
 put
 
@@ -69,7 +69,7 @@ put
 
 ## Delete a task
 
-http://<span></span>localhost:5555/api/tasks/
+http://<span></span>dgt-back.herokuapp.com/api/tasks/
 
 delete
 {
