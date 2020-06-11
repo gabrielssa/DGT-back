@@ -2,12 +2,15 @@ const express = require('express');
 const app = express();
 const dotenv = require('dotenv');
 const mongoose = require('mongoose');
+var cors = require('cors');
 
 //Import routes
 const authRoute = require('./routes/auth');
 const taskRoute = require('./routes/tasks');
 
 dotenv.config();
+
+app.use(cors());
 //Connect to db
 mongoose.connect(
     process.env.DB_CONNECT,
